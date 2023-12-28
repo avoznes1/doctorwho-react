@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>This is a Sample Title</h1>
-      {/* <MyButton /> */}
       <DoctorCard />
     </main>
   )
