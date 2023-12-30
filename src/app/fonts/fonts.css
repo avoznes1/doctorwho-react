@@ -1,0 +1,20 @@
+.latoBold {
+    font-family: var(--font-lato);
+    font-weight: 700;
+  }
+  
+  .montserratItalic {
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .montserratSemibold {
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+  }
+  
+  .montserratRegular {
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+  }

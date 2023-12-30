@@ -1,0 +1,33 @@
+.footer {
+    padding: 1rem;
+    background-color: var(--darkblue-color);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 0.1rem;
+    background-color: white;
+}
+
+.footerIcons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.logoChain {
+    margin-left: 5rem;
+}
+
+.social {
+    margin-right: 1.25rem;
+}
+
+.social a{
+    padding: 8px;
+}

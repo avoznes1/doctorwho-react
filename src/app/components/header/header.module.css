@@ -1,0 +1,41 @@
+.menu {
+    padding: 2.5rem;
+    background-color: var(--darkblue-color);
+}
+
+.menu a {
+    color: white;
+}
+
+.menuItems a{
+    margin-left: 3rem;
+}
+
+.logoDW {
+    position: absolute;
+    width: 8.5rem;
+    height: auto;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.search {
+    margin-left: 12rem;
+}
+
+.searchBar {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.searchBar::placeholder {
+    color: white;
+}
+
+.searchBar:focus {
+    background-color: transparent;
+    color: white;
+}
+
