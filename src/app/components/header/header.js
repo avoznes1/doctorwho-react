@@ -1,7 +1,3 @@
-'use client' 
-import styles from '../header/header.module.css';
-import { useState } from 'react'
-
 import { Nav, NavLink, Navbar, NavbarBrand } from 'react-bootstrap';
 import { Form, FormControl } from 'react-bootstrap';
 import InputGroup from 'react-bootstrap/InputGroup';
