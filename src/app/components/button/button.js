@@ -13,5 +13,5 @@ export default function MyButton(){
     <>
         <Button variant="warning" href="https://www.doctorwho.tv/" target="_blank">Ver más</Button>
     </>
-    )
+    );
 };

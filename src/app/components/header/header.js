@@ -1,4 +1,4 @@
-import styles from '../header/header.module.css'
+import styles from '../header/header.module.css';
 
 import { Nav, NavLink, Navbar, NavbarBrand } from 'react-bootstrap';
 import { Form, FormControl } from 'react-bootstrap';
@@ -9,7 +9,7 @@ import SocialMedia from '../socialmedia/socialmedia';
 
 export default function Header() {
   return (
-    <Navbar expand="lg" className={`justify-content-around montserratSemibold ${styles.menu}`}>
+    <Navbar expand="lg" className={`justify-content-between montserratSemibold ${styles.menu}`}>
       <Nav className={styles.menuItems}>
         <NavLink href='#home'>Conoce a</NavLink>
         <NavLink href='#doctors'>Doctores</NavLink>
@@ -18,7 +18,7 @@ export default function Header() {
       <NavbarBrand href='#home'>
         <img
           src='./assets/img/logos/logo.png'
-          className={styles.logo}
+          className={styles.logoDW}
           alt='Logo de Doctor Who'
         />
       </NavbarBrand>
@@ -41,4 +41,4 @@ export default function Header() {
       <SocialMedia />
     </Navbar>
   );
-}
+};
