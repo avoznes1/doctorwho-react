@@ -5,6 +5,7 @@
 //         <button className={styles.button}>Click Aquí</button>
 //     )
 // }
+//className={`d-flex justify-content-center ${styles.logo}`}
 import Button from 'react-bootstrap/Button';
 
 export default function MyButton(){

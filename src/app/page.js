@@ -1,14 +1,16 @@
 import styles from './page.module.css'
 
-import MyButton from '@/app/components/button/button'
 import DoctorCard from '@/app/components/card/card'
+import Header from './components/header/header'
 
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    // <main className={styles.main}>
+    <main>
+      <Header />
       <h1>This is a Sample Title</h1>
-      <DoctorCard />
+      {/* <DoctorCard /> */}
     </main>
   )
 };
