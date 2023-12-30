@@ -26,9 +26,16 @@
 
 .searchBar {
     border: none;
-    background-color: var(--darkblue-color);
-}
-
-.searchBar::placeholder{
+    background-color: transparent;
     color: white;
 }
+
+.searchBar::placeholder {
+    color: white;
+}
+
+.searchBar:focus {
+    background-color: transparent;
+    color: white;
+}
+
