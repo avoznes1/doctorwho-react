@@ -1,9 +1,11 @@
 import Button from 'react-bootstrap/Button';
 
-export default function MyButton(){
+import styles from './button.module.css';
+
+export default function MyButton({ buttonText }){
     return (    
-    <>
-        <Button variant="warning" href="https://www.doctorwho.tv/" target="_blank">Ver más</Button>
-    </>
+        <Button className={`latoBold ${styles.button}`} href="https://www.doctorwho.tv/" target="_blank">
+            { buttonText }
+        </Button>
     );
 };
