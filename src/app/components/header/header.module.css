@@ -8,11 +8,12 @@
 }
 
 .menuItems a{
-    margin-left: 3rem;
+    margin-left: 4.2rem;
 }
 
 .logoDW {
     position: absolute;
+    z-index: 10;
     width: 8.5rem;
     height: auto;
     top: 5px;
@@ -39,3 +40,10 @@
     color: white;
 }
 
+.social {
+    margin-right: 1.25rem;
+}
+
+.social a{
+    padding: 8px;
+}

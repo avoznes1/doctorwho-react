@@ -5,6 +5,8 @@ import InputGroupText from 'react-bootstrap/InputGroupText';
 
 import SocialMedia from '../socialmedia/socialmedia';
 
+import styles from './header.module.css';
+
 export default function Header() {
   return (
     <Navbar expand="lg" className={`justify-content-between montserratSemibold ${styles.menu}`}>
@@ -23,12 +25,12 @@ export default function Header() {
       <Form className={styles.search}>
         <InputGroup>
           <InputGroupText id="basic-addon1" className={styles.searchBar}>
-          <img
-          src='./assets/img/icons/material-symbols-light_search.svg'
-          alt='Logo de Doctor Who'
-        />
+            <img
+              src='./assets/img/icons/material-symbols-light_search.svg'
+              alt='Logo de Doctor Who'
+            />
           </InputGroupText>
-          <FormControl 
+          <FormControl
             className={`montserratSemibold ${styles.searchBar}`}
             placeholder="Buscar"
             aria-label="Búsqueda"
@@ -36,7 +38,9 @@ export default function Header() {
           />
         </InputGroup>
       </Form>
-      <SocialMedia />
+      <div className={styles.social}>
+        <SocialMedia />
+      </div>
     </Navbar>
   );
 };
