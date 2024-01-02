@@ -8,7 +8,7 @@ export default function CarouselDW( {carouselItems} ) {
         <Carousel controls={false} interval={null} fade>
             {
                 carouselItems.carouselData.map((item, x) => (
-                    <CarouselItem key={x} className={styles.carousel}>
+                    <CarouselItem key={x} className={styles.carouselMain}>
                         <img 
                             className={`d-block w-100 ${styles.carouselImg}`}
                             src={item.image}

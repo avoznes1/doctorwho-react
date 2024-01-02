@@ -23,6 +23,13 @@
             "image": "./assets/img/carrusel/carrusel-1.webp",
             "altText": "Foto de 2 personajes de Doctor Who",
             "title": "Allons-y!"
+        },
+        {   
+            "id":4,
+            "image": "./assets/img/carrusel/carrusel-2.jpg",
+            "altText": "Foto de The Giggle",
+            "title": "The Giggle"
         }
+
     ]
 }
