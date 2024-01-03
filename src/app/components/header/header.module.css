@@ -7,6 +7,10 @@
     color: white;
 }
 
+.menu a:hover {
+    color: var(--cream-color);
+}
+
 .menuItems a{
     margin-left: 4.2rem;
 }
@@ -19,6 +23,12 @@
     top: 5px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.logoDW:hover {
+    width: 9rem;
+    height: auto;
+    filter: brightness(1.2);
 }
 
 .search {
