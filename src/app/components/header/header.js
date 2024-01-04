@@ -7,7 +7,7 @@ import SocialMedia from '../socialmedia/socialmedia';
 
 import styles from './header.module.css';
 
-export default function Header() {
+export default function Header( {setSearchQuery} ) {
   return (
     <Navbar expand="lg" className={`justify-content-between montserratSemibold ${styles.menu}`}>
       <Nav className={styles.menuItems}>
@@ -32,9 +32,11 @@ export default function Header() {
           </InputGroupText>
           <FormControl
             className={`montserratSemibold ${styles.searchBar}`}
+            type='text'
             placeholder="Buscar"
             aria-label="Búsqueda"
             aria-describedby="basic-addon1"
+            onChange={(e) => setSearchQuery(e.target.value)}
           />
         </InputGroup>
       </Form>

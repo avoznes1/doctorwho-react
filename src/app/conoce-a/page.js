@@ -11,7 +11,7 @@ import Col from 'react-bootstrap/Col';
 export default function Conoce() {
     return (
         <body className={styles.body}>
-            <Header />
+            <Header setSearchQuery={setSearchQuery}/>
             <Container fluid className={styles.main}> 
                 <Row>
                     <Col lg={7} className={styles.leftBox}>
