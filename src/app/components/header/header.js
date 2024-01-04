@@ -1,3 +1,5 @@
+'use client'
+
 import { Nav, NavLink, Navbar, NavbarBrand } from 'react-bootstrap';
 import { Form, FormControl } from 'react-bootstrap';
 import InputGroup from 'react-bootstrap/InputGroup';
@@ -6,8 +8,23 @@ import InputGroupText from 'react-bootstrap/InputGroupText';
 import SocialMedia from '../socialmedia/socialmedia';
 
 import styles from './header.module.css';
+import { useRouter } from 'next/navigation';
 
-export default function Header( {setSearchQuery} ) {
+export default function Header() {
+  const router = useRouter();
+  const handleSearch = (e) => {
+    e.preventDefault();
+
+    const query = e.target.value;
+
+    if (!query) {
+      router.push('/doctores');
+      return;
+    }
+    
+    router.push(`/doctores?search=${query}`);
+  };
+
   return (
     <Navbar expand="lg" className={`justify-content-between montserratSemibold ${styles.menu}`}>
       <Nav className={styles.menuItems}>
@@ -36,7 +53,14 @@ export default function Header( {setSearchQuery} ) {
             placeholder="Buscar"
             aria-label="Búsqueda"
             aria-describedby="basic-addon1"
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onKeyDown={
+              (e) => {
+                if (e.key !== 'Enter') {
+                  return;
+                }
+                handleSearch(e);
+              }
+            }
           />
         </InputGroup>
       </Form>

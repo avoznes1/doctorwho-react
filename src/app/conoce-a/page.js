@@ -1,5 +1,3 @@
-import Header from '../components/header/header'
-import Footer from '../components/footer/footer'
 import MyButton from '../components/button/button'
 
 import styles from './conoce.module.css';
@@ -10,8 +8,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function Conoce() {
     return (
-        <body className={styles.body}>
-            <Header setSearchQuery={setSearchQuery}/>
+        <div className={styles.body}>
             <Container fluid className={styles.main}> 
                 <Row>
                     <Col lg={7} className={styles.leftBox}>
@@ -37,7 +34,6 @@ export default function Conoce() {
                     </Col>
                 </Row>
             </Container>
-            <Footer />
-        </body>
+        </div>
     );
 };
