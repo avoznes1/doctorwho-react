@@ -1,7 +1,6 @@
 .button {
     background-color: var(--cream-color);
     border: none;
-    padding: 0.65rem 3.4rem;
     border-radius: 2rem;
 
     font-size: 1.5rem;

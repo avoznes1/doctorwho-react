@@ -11,11 +11,11 @@ export default function Header() {
   return (
     <Navbar expand="lg" className={`justify-content-between montserratSemibold ${styles.menu}`}>
       <Nav className={styles.menuItems}>
-        <NavLink href='#home'>Conoce a</NavLink>
+        <NavLink href='/conoce-a'>Conoce a</NavLink>
         <NavLink href='#doctors'>Doctores</NavLink>
         <NavLink href='#contact'>Contacto</NavLink>
       </Nav>
-      <NavbarBrand href='#home'>
+      <NavbarBrand href='/'>
         <img
           src='./assets/img/logos/logo.png'
           className={styles.logoDW}
