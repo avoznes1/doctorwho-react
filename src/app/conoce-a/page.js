@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function Conoce() {
     return (
-        <body>
+        <body className={styles.body}>
             <Header />
             <Container fluid className={styles.main}> 
                 <Row>
@@ -21,7 +21,12 @@ export default function Conoce() {
                             Convallis maecenas ac pharetra metus justo amet nunc amet. Hac pellentesque proin sapien duis natoque. Risus enim duis quis egestas non. Morbi ut potenti egestas id pharetra gravida interdum nam.
                         </p>
                         <div className={styles.button}>
-                            <MyButton buttonText="Ver más" padding="1rem 9.5rem" />
+                            <MyButton buttonText="Ver más" padding="1.1rem 9.5rem" />
+                        </div>
+                        <div>
+                            <img
+                                src='./assets/img/symbols/persistencia.png'
+                            />
                         </div>
                     </Col>
                     <Col lg={4} className={styles.rightBox}>

@@ -1,6 +1,13 @@
+.body {
+    background-color: var(--darkblue-color);
+    background-image: url('../../../public/assets/img/symbols/resistencia.png');
+    background-position: right 13.7rem top 70%;
+    background-repeat: no-repeat;
+    background-size: 46rem;
+}
+
 .main {
     padding: 0.2rem 1rem 3rem 2rem;
-    background-color: var(--darkblue-color);
 }
 
 .leftBox {
@@ -23,22 +30,33 @@
     font-size: 1.8rem;
     line-height: 2.1rem;
 
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     padding: 0 3rem;
+
+    z-index: 1;
+}
+
+.leftBox img {
+    position: absolute;
+    width: 28rem;
+    top: 31.3rem;
+    left: 3rem;
 }
 
 .rightBox {
-    background-color: brown;
     width: 65vh;
-    height: 86vh;
+    height: 83vh;
     margin-left: 3rem;
     overflow: hidden;
 }
 
 .rightBox img {
-    width: 105%;
+    width: 102%;
     height: auto;
     display: block;
     transform: translate(-2%, -10%);
 }
 
+.button {
+    z-index: 1;
+}
