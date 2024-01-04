@@ -12,7 +12,7 @@ export default function Header() {
     <Navbar expand="lg" className={`justify-content-between montserratSemibold ${styles.menu}`}>
       <Nav className={styles.menuItems}>
         <NavLink href='/conoce-a'>Conoce a</NavLink>
-        <NavLink href='#doctors'>Doctores</NavLink>
+        <NavLink href='/doctores'>Doctores</NavLink>
         <NavLink href='#contact'>Contacto</NavLink>
       </Nav>
       <NavbarBrand href='/'>
