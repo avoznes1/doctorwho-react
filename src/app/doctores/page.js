@@ -30,9 +30,9 @@ export default function Doctores() {
 
     return (
         <div className={styles.body}>
-            <Container>
+            <Container fluid>
                 <h1>Doctores</h1>
-                <Row xs={1} lg={4} className="g-4">
+                <Row xs={1} lg={4} className="g-5">
                     {
                         (valueToSearch === '' ? docData.doctors : filteredCards)
                         .map((data, i) => 

@@ -37,3 +37,8 @@ a {
   border: 2px solid var(--cream-color);;
   opacity: 1;
 }
+
+/* --------- CARD MODIFICATIONS --------- */
+.card {
+  --bs-card-spacer-x: 0;
+}

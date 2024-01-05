@@ -18,7 +18,6 @@ export default function Header() {
     const query = e.target.value;
 
     if (!query) {
-      router.push('/doctores');
       return;
     }
     
