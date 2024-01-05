@@ -1,0 +1,22 @@
+.docCard {
+    background-color: transparent;
+    color: white;
+}
+
+.docCardImg {
+    border-radius: 0;
+    height: 28rem;
+    object-fit: cover;
+    padding-right: 1.8rem;
+}
+
+.docCardTitle {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.docCardText {
+    font-size: 1.7rem;
+    padding: 1rem 0 0.5rem;
+    line-height: 3.5rem;
+}

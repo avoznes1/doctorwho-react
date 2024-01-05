@@ -5,7 +5,7 @@ import styles from './carousel.module.css';
 
 export default function CarouselDW( {carouselItems} ) {
     return (
-        <Carousel controls={false} interval={null} fade>
+        <Carousel controls={false} fade>
             {
                 carouselItems.carouselData.map((item, x) => (
                     <CarouselItem key={x} className={styles.carouselMain}>
