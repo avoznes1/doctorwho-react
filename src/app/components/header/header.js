@@ -29,7 +29,7 @@ export default function Header() {
       <Nav className={styles.menuItems}>
         <NavLink href='/conoce-a'>Conoce a</NavLink>
         <NavLink href='/doctores'>Doctores</NavLink>
-        <NavLink href='#contact'>Contacto</NavLink>
+        <NavLink href='/contacto'>Contacto</NavLink>
       </Nav>
       <NavbarBrand href='/'>
         <img
