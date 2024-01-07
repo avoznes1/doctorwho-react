@@ -45,13 +45,13 @@ npm run dev
 Here are some of the screenshots of this project:
 <br><br>
 
-![Mobile-Card](./public/assets/img/screenshots/mobile-card.png){ height=100 }
-![Form-Card](./public/assets/img/screenshots/mobile-form.png){ height=100 }
-![Meet-Card](./public/assets/img/screenshots/mobile-meet.png){ height=100 }
-
 ![Desktop-Carousel](./public/assets/img/screenshots/desktop-carousel.png)
 ![Desktop-Doc01](./public/assets/img/screenshots/desktop-doc01.png)
 ![Desktop-Doc02](./public/assets/img/screenshots/desktop-doc02.png)
+
+![Mobile-Card](./public/assets/img/screenshots/mobile-card.png)
+![Form-Card](./public/assets/img/screenshots/mobile-form.png | heigt=100)
+![Meet-Card](./public/assets/img/screenshots/mobile-meet.png)
 
 
 <br><br>
