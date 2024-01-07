@@ -17,7 +17,7 @@
 .footerIcons {
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .logoChain {
@@ -25,9 +25,15 @@
 }
 
 .social {
-    margin-right: 5rem;
+    margin-right: 6rem;
 }
 
-.social a{
-    padding: 8px;
+@media only screen and (max-width: 600px) {
+    .logoChain {
+        margin-left: 0;
+    }
+
+    .social {
+        margin-right: 0;
+    }
 }

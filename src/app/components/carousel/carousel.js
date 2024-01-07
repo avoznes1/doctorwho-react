@@ -16,7 +16,7 @@ export default function CarouselDW( {carouselItems} ) {
                         />
                         <CarouselCaption className={styles.title}>
                             <h1 className='latoBlack'>{item.title}</h1>
-                            <MyButton buttonText="Ver ahora" padding="0.65rem 3.4rem" />
+                            <MyButton buttonText="Ver ahora" padding="0.65rem 3rem" />
                         </CarouselCaption>
                     </CarouselItem>
                 ))

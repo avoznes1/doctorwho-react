@@ -32,7 +32,7 @@
 }
 
 .search {
-    margin-left: 12rem;
+    margin-left: 31rem;
 }
 
 .searchBar {
@@ -54,6 +54,42 @@
     margin-right: 3.5rem;
 }
 
-.social a{
-    padding: 8px;
+@media (max-width: 767px) {
+    .menu {
+        z-index: 1;
+    }
+    .menu a{
+        font-size: 1.8rem;
+        padding-left: 1.5rem;
+    }
+
+    .menu a:nth-child(1) {
+        margin-top: 3rem;
+    }
+    .logoDW {
+        left: 20%;
+        top: 1.1rem;
+        width: 6rem;
+    }
+    
+    .logoDW:hover {
+        width: 6rem;
+    }
+
+    .search {
+        margin: 1rem 0 6rem 4.5rem;
+    }
+
+    .searchBar::placeholder{
+        font-size: 1.8rem;
+    }
+
+    .searchBar:focus{
+        margin-right: 4.5rem;
+        font-size: 1.8rem;
+    }
+
+    .social {
+        margin-left: 5.7rem;
+    }
 }

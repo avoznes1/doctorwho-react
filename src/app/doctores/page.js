@@ -32,7 +32,7 @@ export default function Doctores() {
         <div className={styles.body}>
             <Container fluid>
                 <h1>Doctores</h1>
-                <Row xs={1} lg={4} className="g-5">
+                <Row xs={12} lg={4} className="g-5">
                     {
                         (valueToSearch === '' ? docData.doctors : filteredCards)
                         .map((data, i) => 

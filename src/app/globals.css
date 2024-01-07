@@ -38,6 +38,8 @@ a {
   opacity: 1;
 }
 
+/* -------------------- DESKTOP VERSION -------------------- */
+
 /* --------- CARD MODIFICATIONS --------- */
 .card {
   --bs-card-spacer-x: 0;
@@ -57,4 +59,22 @@ a {
 
 .input-group>.form-control, .input-group>.form-floating, .input-group>.form-select {
   padding-left: 0;
+}
+
+/* -------------------- MOBILE VERSION -------------------- */
+.navbar {
+  --bs-navbar-toggler-focus-width: 0;
+  --bs-navbar-toggler-border-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url('../../public/assets/img/icons/menu-icon.png');
+  margin-left: 18rem;
+  width: 2rem;
+}
+
+@media (max-width: 767px) {
+  .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    font-size: 1.8rem;
+  } 
 }
