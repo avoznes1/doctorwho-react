@@ -7,17 +7,28 @@
     color: white;
 }
 
+.menu a:hover {
+    color: var(--cream-color);
+}
+
 .menuItems a{
-    margin-left: 3rem;
+    margin-left: 4.2rem;
 }
 
 .logoDW {
     position: absolute;
+    z-index: 10;
     width: 8.5rem;
     height: auto;
     top: 5px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.logoDW:hover {
+    width: 9rem;
+    height: auto;
+    filter: brightness(1.2);
 }
 
 .search {
@@ -39,3 +50,10 @@
     color: white;
 }
 
+.social {
+    margin-right: 3.5rem;
+}
+
+.social a{
+    padding: 8px;
+}

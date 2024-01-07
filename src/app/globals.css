@@ -1,6 +1,6 @@
 :root {
---darkblue-color: #040521;
---cream-color: #FFC67E;
+  --darkblue-color: #040521;
+  --cream-color: #FFC67E;
 }
 
 * {
@@ -12,4 +12,49 @@
 a {
   color: inherit;
   text-decoration: none;
+}
+
+/* --------- CAROUSEL MODIFICATIONS --------- */
+.carousel-indicators {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+  transform: translateX(13.8%);
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-right: 0.9rem;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: var(--cream-color);
+  border: 2px solid var(--cream-color);;
+  opacity: 1;
+}
+
+/* --------- CARD MODIFICATIONS --------- */
+.card {
+  --bs-card-spacer-x: 0;
+}
+
+/* --------- FORM MODIFICATIONS --------- */
+.form-control {
+  color: #eeeeee;
+}
+
+/* --------- SEARCH MODIFICATIONS --------- */
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback):focus {
+  border-bottom: 1px solid white;
+  border-left: transparent;
+  border-radius: 0;
+}
+
+.input-group>.form-control, .input-group>.form-floating, .input-group>.form-select {
+  padding-left: 0;
 }
