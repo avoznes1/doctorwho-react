@@ -44,8 +44,9 @@ export default function Contacto() {
                         <img
                             src='./assets/img/symbols/vencer.png'
                         />
+                        <div className={styles.leftImages}></div>
                     </Col>
-                    <Col lg={{ span: 5, offset: 2 }}>
+                    <Col className={styles.rightBox} lg={{ span: 5, offset: 2 }}>
                         <Form className={styles.formMain} onSubmit={handleSubmit} autoComplete="off">
                             <FormControl
                                 className={styles.formInput}

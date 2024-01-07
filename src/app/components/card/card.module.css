@@ -20,3 +20,9 @@
     padding: 1rem 0 0.5rem;
     line-height: 3.5rem;
 }
+
+@media (max-width: 767px) {
+    .docCard {
+        padding-left: 1.8rem;
+    }
+}
