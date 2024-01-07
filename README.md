@@ -4,10 +4,11 @@ Welcome to this project which involved the website creation of famous science-fi
 
 ## Table of Contents
 
-- [Features](#description)
+- [Features](#features)
 - [First Steps](#firststeps)
+- [Images](#images)
 
-## Features
+## Features {#features}
 
 #### Landing Page
 The website will display a landing page featuring a carousel. The carousel will showcase different titles from the series.
@@ -25,7 +26,7 @@ The header will include a search bar that will filter the doctors' data, allowin
 The website will feature a "Contact" page with a form. Upon completing the form and clicking "send," the information will be displayed in the console. On the web, an alert will appear indicating "Your message has been sent successfully."
 
 
-## First Steps
+## First Steps {#firststeps}
 1. Clone the repository.
 ```bash
 https://github.com/dani-cp/doctorwho-react.git
@@ -39,6 +40,17 @@ npm install react react-bootstrap next
 npm run dev
 ```
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Images
+Here are some of the screenshots of this project:
+![Mobile-Card](./public/assets/img/screenshots/mobile-card.png){: style="height:100px"}
+![Form-Card](./public/assets/img/screenshots/mobile-form.png){: style="height:100px"}
+![Meet-Card](./public/assets/img/screenshots/mobile-meet.png){: style="height:100px"}
+
+![Form-Card](./public/assets/img/screenshots/desktop-carousel.png){: style="height:200px"}
+![Form-Card](./public/assets/img/screenshots/desktop-doc01.png){: style="height:200px"}
+![Form-Card](./public/assets/img/screenshots/desktop-doc02.png){: style="height:200px"}
+
 
 <br><br>
 
