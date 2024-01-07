@@ -49,6 +49,8 @@ Here are some of the screenshots of this project:
 ![Desktop-Doc01](./public/assets/img/screenshots/desktop-doc01.png)
 ![Desktop-Doc02](./public/assets/img/screenshots/desktop-doc02.png)
 
+![Mobile-Card](./public/assets/img/screenshots/mobile-card.png) ![Form-Card](./public/assets/img/screenshots/mobile-form.png) ![Meet-Card](./public/assets/img/screenshots/mobile-meet.png)
+
 ![Mobile-Card](./public/assets/img/screenshots/mobile-card.png) ![Form-Card](./public/assets/img/screenshots/mobile-form.png) ![Meet-Card](./public/assets/img/screenshots/mobile-meet.png) ![Carousel-Card](./public/assets/img/screenshots/mobile-carousel.png.png)
 
 <br><br>
