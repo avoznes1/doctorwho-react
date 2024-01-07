@@ -41,16 +41,15 @@ npm run dev
 ```
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Images
+## Images {#images}
 Here are some of the screenshots of this project:
-![Mobile-Card](./public/assets/img/screenshots/mobile-card.png){: style="height:100px"}
-![Form-Card](./public/assets/img/screenshots/mobile-form.png){: style="height:100px"}
-![Meet-Card](./public/assets/img/screenshots/mobile-meet.png){: style="height:100px"}
+<br><br>
 
-![Form-Card](./public/assets/img/screenshots/desktop-carousel.png){: style="height:200px"}
-![Form-Card](./public/assets/img/screenshots/desktop-doc01.png){: style="height:200px"}
-![Form-Card](./public/assets/img/screenshots/desktop-doc02.png){: style="height:200px"}
+![Desktop-Carousel](./public/assets/img/screenshots/desktop-carousel.png)
+![Desktop-Doc01](./public/assets/img/screenshots/desktop-doc01.png)
+![Desktop-Doc02](./public/assets/img/screenshots/desktop-doc02.png)
 
+![Mobile-Card](./public/assets/img/screenshots/mobile-card.png) ![Form-Card](./public/assets/img/screenshots/mobile-form.png) ![Meet-Card](./public/assets/img/screenshots/mobile-meet.png) ![Carousel-Card](./public/assets/img/screenshots/mobile-carousel.png.png)
 
 <br><br>
 
