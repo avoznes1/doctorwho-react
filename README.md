@@ -50,7 +50,7 @@ Here are some of the screenshots of this project:
 ![Desktop-Doc02](./public/assets/img/screenshots/desktop-doc02.png)
 
 ![Mobile-Card](./public/assets/img/screenshots/mobile-card.png)
-![Form-Card](./public/assets/img/screenshots/mobile-form.png | heigt=100)
+![Form-Card](./public/assets/img/screenshots/mobile-form.png | height=100)
 ![Meet-Card](./public/assets/img/screenshots/mobile-meet.png)
 
 
