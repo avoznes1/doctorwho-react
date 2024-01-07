@@ -42,3 +42,19 @@ a {
 .card {
   --bs-card-spacer-x: 0;
 }
+
+/* --------- FORM MODIFICATIONS --------- */
+.form-control {
+  color: #eeeeee;
+}
+
+/* --------- SEARCH MODIFICATIONS --------- */
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback):focus {
+  border-bottom: 1px solid white;
+  border-left: transparent;
+  border-radius: 0;
+}
+
+.input-group>.form-control, .input-group>.form-floating, .input-group>.form-select {
+  padding-left: 0;
+}

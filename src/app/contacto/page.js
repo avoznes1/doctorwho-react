@@ -1,5 +1,4 @@
 'use client'
-import MyButton from '../components/button/button'
 import Button from 'react-bootstrap/Button';
 
 import styles from './contacto.module.css';
@@ -7,7 +6,7 @@ import styles from './contacto.module.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Form, FormControl, FormGroup } from 'react-bootstrap';
+import { Form, FormControl } from 'react-bootstrap';
 
 import { useState } from 'react';
 
@@ -47,18 +46,15 @@ export default function Contacto() {
                         />
                     </Col>
                     <Col lg={{ span: 5, offset: 2 }}>
-                        <Form className={styles.formMain} onSubmit={handleSubmit}>
-                            <FormGroup controlId='formName'>
-                                <FormControl
-                                    className={styles.formInput}
-                                    type="text"
-                                    placeholder="Nombre *"
-                                    name="nombre"
-                                    value={formData.nombre}
-                                    onChange={handleChange}
-                                />
-                            </FormGroup>
-
+                        <Form className={styles.formMain} onSubmit={handleSubmit} autoComplete="off">
+                            <FormControl
+                                className={styles.formInput}
+                                type="text"
+                                placeholder="Nombre *"
+                                name="nombre"
+                                value={formData.nombre}
+                                onChange={handleChange}
+                            />
                             <FormControl
                                 className={styles.formInput}
                                 type="text"
@@ -75,8 +71,8 @@ export default function Contacto() {
                                 value={formData.mensaje}
                                 onChange={handleChange}
                             />
-                            <Button variant="primary" type="submit">
-                                Submit
+                            <Button className={`latoBold ${styles.formButton}`} type="submit">
+                                Enviar
                             </Button>
                         </Form>
                     </Col>
