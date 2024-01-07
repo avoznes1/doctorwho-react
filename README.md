@@ -41,7 +41,7 @@ npm run dev
 ```
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Images {#images}
+## Images
 Here are some of the screenshots of this project:
 <br><br>
 
@@ -51,7 +51,6 @@ Here are some of the screenshots of this project:
 
 ![Mobile-Card](./public/assets/img/screenshots/mobile-card.png) ![Form-Card](./public/assets/img/screenshots/mobile-form.png) ![Meet-Card](./public/assets/img/screenshots/mobile-meet.png)
 
-![Mobile-Card](./public/assets/img/screenshots/mobile-card.png) ![Form-Card](./public/assets/img/screenshots/mobile-form.png) ![Meet-Card](./public/assets/img/screenshots/mobile-meet.png) ![Carousel-Card](./public/assets/img/screenshots/mobile-carousel.png.png)
 
 <br><br>
 
