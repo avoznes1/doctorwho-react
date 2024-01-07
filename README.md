@@ -43,13 +43,15 @@ npm run dev
 
 ## Images
 Here are some of the screenshots of this project:
-![Mobile-Card](./public/assets/img/screenshots/mobile-card.png){: style="height:100px"}
-![Form-Card](./public/assets/img/screenshots/mobile-form.png){: style="height:100px"}
-![Meet-Card](./public/assets/img/screenshots/mobile-meet.png){: style="height:100px"}
+<br><br>
 
-![Form-Card](./public/assets/img/screenshots/desktop-carousel.png){: style="height:200px"}
-![Form-Card](./public/assets/img/screenshots/desktop-doc01.png){: style="height:200px"}
-![Form-Card](./public/assets/img/screenshots/desktop-doc02.png){: style="height:200px"}
+![Mobile-Card](./public/assets/img/screenshots/mobile-card.png){ height=100 }
+![Form-Card](./public/assets/img/screenshots/mobile-form.png){ height=100 }
+![Meet-Card](./public/assets/img/screenshots/mobile-meet.png){ height=100 }
+
+![Desktop-Carousel](./public/assets/img/screenshots/desktop-carousel.png)
+![Desktop-Doc01](./public/assets/img/screenshots/desktop-doc01.png)
+![Desktop-Doc02](./public/assets/img/screenshots/desktop-doc02.png)
 
 
 <br><br>
