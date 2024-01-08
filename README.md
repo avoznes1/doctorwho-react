@@ -8,7 +8,7 @@ Welcome to this project which involved the website creation of famous science-fi
 - [First Steps](#firststeps)
 - [Images](#images)
 
-## Features {#features}
+## Features 
 
 #### Landing Page
 The website will display a landing page featuring a carousel. The carousel will showcase different titles from the series.
@@ -26,7 +26,7 @@ The header will include a search bar that will filter the doctors' data, allowin
 The website will feature a "Contact" page with a form. Upon completing the form and clicking "send," the information will be displayed in the console. On the web, an alert will appear indicating "Your message has been sent successfully."
 
 
-## First Steps {#firststeps}
+## First Steps
 1. Clone the repository.
 ```bash
 https://github.com/dani-cp/doctorwho-react.git
