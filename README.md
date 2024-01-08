@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Doctor Who React Web App
 
-## Getting Started
+Welcome to this project which involved the website creation of famous science-fiction series Doctor Who, developed in React, ReactBootstrap, NextJS, and a bit of HTML/CSS. Enjoy!
 
-First, run the development server:
+## Table of Contents
 
+- [Features](#features)
+- [First Steps](#firststeps)
+- [Images](#images)
+
+## Features {#features}
+
+#### Landing Page
+The website will display a landing page featuring a carousel. The carousel will showcase different titles from the series.
+
+#### "Meet the../Conoce a.." Page
+The website will display relevant information about the series characters.
+
+#### "Doctors" Page
+The website will display a list of doctors using a JSON file (with their data), and a card component. Clicking on "Read more" in the doctors' list will redirect to the link [https://www.doctorwho.tv/](https://www.doctorwho.tv/).
+
+#### Search Feature/Header
+The header will include a search bar that will filter the doctors' data, allowing users to search by name or type of doctor.
+
+#### "Contact" Page
+The website will feature a "Contact" page with a form. Upon completing the form and clicking "send," the information will be displayed in the console. On the web, an alert will appear indicating "Your message has been sent successfully."
+
+
+## First Steps {#firststeps}
+1. Clone the repository.
+```bash
+https://github.com/dani-cp/doctorwho-react.git
+```
+2. Install React, ReactBootstrap, and NextJS dependencies.
+```bash
+npm install react react-bootstrap next
+```
+3. Run with 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Images
+Here are some of the screenshots of this project:
+<br><br>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![Desktop-Carousel](./public/assets/img/screenshots/desktop-carousel.png)
+![Desktop-Doc01](./public/assets/img/screenshots/desktop-doc01.png)
+![Desktop-Doc02](./public/assets/img/screenshots/desktop-doc02.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Mobile-Card](./public/assets/img/screenshots/mobile-card.png) ![Form-Card](./public/assets/img/screenshots/mobile-form.png) ![Meet-Card](./public/assets/img/screenshots/mobile-meet.png)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+<br><br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Back to: [Table of Contents](#table-of-contents)
